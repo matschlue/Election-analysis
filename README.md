@@ -1,35 +1,18 @@
-# election-analysis
-## An Analysis of the stock market during the years 2017 and 2018
-For this examination stock market data was used to determine the performance of several companies. In order to analyze the market data, Excel macros were programmed in VBA (Visual Basic for Applications) to automate tasks.
+# Election-analysis
+## An election audit examination for the Colorado Board of Elections
+For this investigation election data (csv format) was used to perform an audit of the election results in Colorado. In order to analyze the election data, a program in Python was created to verify the results. 
 
 ## Results
-### Stock market performance in 2017
-![Alt text](/VBA_Challenge_2017_re.png "Image")
-
-In 2017, almost all stocks achieved a positive return. The best performing stock was _"DQ"_ with a return of almost 200%. Only _"TERP"_ was not able to return value to their shareholders. 
-
-### Stock market performance in 2018
-![Alt text](/VBA_Challenge_2018_re.png "Image")
-
-In 2018, stock market returns were significantly lower than in 2017. In fact, all despite two companies (_"ENPH"_ and _"RUN"_) show a negative return for their investors. Worst performers in 2018 are _"DQ"_, _"JKS"_ and _"SPWR"_.  
-
-## Refactoring VBA code
-Since there were many steps involved to create this code, an important part was to "refactor" the original code. This has several advantages:
-- clean code is easier to improve and update 
-- potential time and money saving aspects in future
-- reduced complexity for better understanding
-
-Nevertheless there are some drawbacks as well:
-- timeline uncertainty, since refactoring can be time consuming
-- higher personnel expenses due to time consumption for recoding
-- possibility of making mistakes in the new code
-
-### Refactoring Stock market performance macro
-
-Just by refactoring the current stock performance marco, savings in the time to excecute the program were achieved. 
-
-#### Original code execution time for 2017 and 2018
-![Alt text](/VBA_Challenge_2017.png "Image")
-![Alt text](/VBA_Challenge_2018.png "Image")
-
-Before refactoring, the marco had an execution time of around 1.44 seconds for both years. After modifying the code, both years ran in abount 0.2 seconds. The new code is much more efficient and flexible in analyzing the stock market data, therefore it can also be used in a larger data set. In the original code, analyzing a larger data set would only be possible with many modifications and alterations. A disadvantage could be the increased complexity of the new code for the end user. However, due to the increased speed and functionality, the refactored code is the better alternative. 
+- Election Results: Total Votes: 369,711
+- County Votes:
+  - Jefferson: 10.5% (38,855)
+  - Denver: 82.8% (306,055)
+  - Arapahoe: 6.7% (24,801)
+- Largest county turnout: Denver
+- Candidate Votes:
+  - Charles Casper Stockham: 23.0% (85,213)
+  - Diana DeGette: 73.8% (272,892)
+  - Raymon Anthony Doane: 3.1% (11,606)
+- Winner: Diana DeGette
+  - Winning Vote Count: 272,892
+  - Winning Percentage: 73.8%
