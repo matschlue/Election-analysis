@@ -20,4 +20,4 @@ For this investigation election data (csv format) was used to perform an audit o
 The winner of the Colorado electon is _Diana De Gette_ with a total vote count of 272,892 or 73.8%.
 
 ## Election-audit summary
-The script used in this election audit is very flexible and can be modified in order to serve other purposes or elections as well. For instance, counties could be replaced by states for a nation wide election.  
+The script used in this election audit is very flexible and can be modified in order to serve other purposes or elections as well. For instance, counties could be replaced by states for a nation wide election. Furthermore, dictionaries could be added with demographic information in order to further analyse the election results.  
