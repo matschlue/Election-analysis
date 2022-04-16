@@ -16,3 +16,8 @@ For this investigation election data (csv format) was used to perform an audit o
 - Winner: Diana DeGette
   - Winning Vote Count: 272,892
   - Winning Percentage: 73.8%
+
+The winner of the Colorado electon is _Diana De Gette_ with a total vote count of 272,892 or 73.8%.
+
+## Election-audit summary
+
